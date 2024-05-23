@@ -1,0 +1,82 @@
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+.text p {
+  right: 20px !important;
+  left: 20px !important;
+}
+
+ul:first-of-type li:nth-child(even) .icon, ul:first-of-type li:nth-child(even) .text {
+  float: right !important;
+}
+
+ul:last-of-type li:nth-child(even) .icon,
+ul:last-of-type li:nth-child(even) .text {
+  float: left !important;
+}
+
+ul:nth-of-type(1) li:nth-child(1) .border-inside {
+  background: -webkit-gradient(linear, left top, right top, from(#435334), to(#9EB384));
+  background: linear-gradient(90deg, #435334, #9EB384);
+}
+
+ul:nth-of-type(1) li:nth-child(2) .border-inside {
+  background: -webkit-gradient(linear, left top, right top, from(#435334), to(#9EB384));
+  background: linear-gradient(90deg, #435334, #9EB384);
+}
+
+ul:nth-of-type(1) li:nth-child(3) .border-inside {
+  background: -webkit-gradient(linear, left top, right top, from(#435334), to(#9EB384));
+  background: linear-gradient(90deg, #435334, #9EB384);
+}
+
+ul:nth-of-type(2) li:nth-child(1) .border-inside {
+  background: linear-gradient(240deg, #435334, #9EB384);
+}
+
+ul:nth-of-type(2) li:nth-child(2) .border-inside {
+  background: -webkit-gradient(linear, left top, right top, from(#435334), to(#9EB384));
+  background: linear-gradient(90deg, #435334, #9EB384);
+}
+
+ul:nth-of-type(2) li:nth-child(3) .border-inside {
+  background: -webkit-gradient(linear, left top, right top, from(#435334), to(#9EB384));
+  background: linear-gradient(90deg, #435334, #9EB384);
+}
+
+body {
+  position: relative;
+}
+
+
+ul:nth-of-type(1) li:nth-child(1) .icon {
+  border : 1px solid #04ff00;
+}
+
+ul:nth-of-type(1) li:nth-child(2) .icon {
+  border: 1px solid rgb(21, 255, 0);
+}
+
+ul:nth-of-type(1) li:nth-child(3) .icon {
+  border: 1px solid #04ff00;
+}
+
+ul:nth-of-type(2) li:nth-child(1) .icon {
+  border: 1px solid #04ff00;
+}
+
+ul:nth-of-type(2) li:nth-child(2) .icon {
+  border: 1px solid #04ff00;
+}
+
+ul:nth-of-type(2) li:nth-child(3) .icon {
+  border: 1px solid #04ff00;
+}
+
+/*# sourceMappingURL=penularan.css.map */

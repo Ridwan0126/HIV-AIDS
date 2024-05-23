@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: transparent;
+  background-image: url(../img/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden!important;
+  height: 100vh;
+  /* background-position-y: -30px; */
+}
+
+html{
+  overflow-x: hidden!important;
+}
+
+
+
+.container {
+  margin: 20px 0 0 20px;
+  width: 500px;
+  height: 65vh!important;
+  padding: 5px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.container h1 {
+  z-index: 0 !important;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: 'Akrobat Semibold',
+ sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 65px;
+  text-decoration: none;
+  color: solid black;
+  text-align: left;
+  word-spacing: 0px;
+  height: 150px;
+  margin: 0 0 16px 0;
+}
+
+.container h1 a {
+  font-family: 'Poppins',
+ sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 35px;
+  text-decoration: none;
+  display: block;
+  width: 160px;
+  border-radius: 30px;
+  text-align: center;
+  height: auto;
+  padding: 5px 25px;
+  margin-top: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#183D3D), to(#040D12));
+  background: linear-gradient(240deg, #183D3D, #040D12);
+  color: white;
+}
+
+.container h1 a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#5C8374), to(#93B1A6));
+  background: linear-gradient(240deg, #5C8374, #93B1A6);
+}
+
+@media (max-width: 790px) {
+  .container {
+    margin: 0px 0px;
+    padding: 10px 0%;
+    padding-left: 5%;
+    width: 400px!important;
+  }
+  .container h1 {
+    margin: 0px;
+    padding: 10px 15px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 516px) {
+  .container {
+    height: 280px;
+  }
+}
+
+@media (max-width : 960px){
+
+  .container{
+    height:50vh!important;
+  }
+}
+
+@media (max-width : 867px){
+
+  body {
+
+    background-color: transparent;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container{
+    width: 489px;
+  }
+
+}
+
+@media (max-width : 719px){
+
+  body {
+
+    background-color: transparent;
+    background-size: cover;
+  }
+
+  .container{
+    width: 500px!important;
+  }
+
+}
+
+@media (max-width : 404px){
+
+  body {
+
+    background-size: cover;
+  }
+
+}
+
+@media (max-width : 460px){
+
+  .container {
+    width: 100%!important;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+
+    
+  }
+
+  .container h1{
+    padding : 10px 0px;
+  }
+}
+
+
+
+/*# sourceMappingURL=homepage.css.map */

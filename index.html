@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="img/hiv-icon.jpg" />
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:450&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <title>HIV/AIDS</title>
+</head>
+
+<body>
+
+    <!-- pageloader -->
+    <div class="page-loader">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- end pageloader -->
+    
+
+    <nav>
+        <h4> <a href="index.html">Peduli HIV </a></h4>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <div class="nav-wrapper">
+
+            <ul>
+                <div class="nav-inside-wrapper"></div>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index-2.html">HIV</a></li>
+                <li><a href="index-3.html">Penularan</a></li>
+                <li><a href="index-4.html">Pencegahan</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- container -->
+    <div class="container-img"></div>
+
+    <div class="container">
+        <h1>
+            Hidup sehat untuk mencegah penyakit HIV.
+        <br><a href="index-2.html" class="donate done">Selengkapnya</a>
+        </h1>
+    </div>
+
+    <!-- end of container -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!--  michalsnik github animation-->
+    <script src="js/aos.js"></script>
+    <!-- end michalsnik github animation -->
+    <script src="js/script.js"></script>
+    <!-- MY JS -->
+    <script src="js/navbar.js"></script>
+    <script>
+        imageload('img', 0, function () {
+            document.querySelector('.container h1').classList.add('animated');
+            document.querySelector('.container h1').classList.add('fadeInLeft');
+            document.querySelector('.container h1').classList.add('delay-1s');
+
+            document.querySelector('.container h1 a').classList.add('animated');
+            document.querySelector('.container h1 a').classList.add('fadeInUp');
+            document.querySelector('.container h1 a').classList.add('delay-2s');
+        });
+    </script>
+
+</body>
+
+</html>
